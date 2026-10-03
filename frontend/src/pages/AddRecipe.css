@@ -1,0 +1,43 @@
+
+.add-recipe-page {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.add-recipe-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-recipe-page input,
+.add-recipe-page textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.add-recipe-page textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.add-recipe-page button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.success-message {
+  margin-top: 15px;
+}
+
+.error-message {
+  margin-top: 15px;
+}
+

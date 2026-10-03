@@ -1,0 +1,88 @@
+.home{
+    min-height: 100vh;
+}
+.hero{
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #fff8f3;
+}
+
+.hero-content{
+    max-width: 550px;
+
+}
+.tagline{
+    color: #e76f51;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.hero h1 span{
+    color: #e76f51;
+}
+
+.hero-text{
+    font-size: 18px;
+    line-height: 1.7;
+    color: #666;
+}
+.hero-button{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.primary-btn, .secondary-btn{
+ padding:12px 22px ;
+ border-radius: 8px;
+ text-decoration: none;
+ font-weight: 500;
+}
+
+.primary-btn{
+    background-color: #e76f51;
+    color: white;
+   
+}
+.secondary-btn{
+    border: 1px solid #e76f51;
+    color: #e76f51;
+}
+.food-circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4a261;
+    font-size: 120px;
+    box-shadow:  0 15px 30px gray;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 70px 10%;
+}
+.feature-card{
+    width: 260px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 17px;
+    box-shadow:  0 5px 20px rgba(0,0,0,0.167);
+}
+
+.feature-card span{
+    font-size: 40px;
+}
+.feature-card h3{
+    font-size: 22px;
+}
+.feature-card p{
+    color: #666;
+    line-height: 1.5;
+}

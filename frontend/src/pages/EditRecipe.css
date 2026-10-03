@@ -1,0 +1,78 @@
+.edit-recipe-page {
+min-height: 100vh;
+background-color: #fff8f3;
+padding: 50px 10%;
+}
+
+.edit-recipe-page h1 {
+text-align: center;
+font-size: 38px;
+margin-bottom: 30px;
+}
+
+.edit-recipe-page form {
+max-width: 700px;
+margin: auto;
+background-color: white;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.edit-recipe-page input,
+.edit-recipe-page textarea {
+width: 100%;
+padding: 13px;
+margin-bottom: 18px;
+border: 1px solid #ddd;
+border-radius: 7px;
+font-size: 16px;
+box-sizing: border-box;
+}
+
+.edit-recipe-page textarea {
+min-height: 120px;
+resize: vertical;
+}
+
+.edit-recipe-page input:focus,
+.edit-recipe-page textarea:focus {
+outline: none;
+border-color: #ff7043;
+}
+
+.edit-recipe-page button {
+width: 100%;
+padding: 13px;
+background-color: #ff7043;
+color: white;
+border: none;
+border-radius: 7px;
+font-size: 17px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.edit-recipe-page button:hover {
+background-color: #e85d2a;
+}
+
+.success-message {
+color: green;
+text-align: center;
+margin-top: 15px;
+font-weight: 600;
+}
+
+.errror-message {
+color: red;
+text-align: center;
+margin-top: 15px;
+font-weight: 600;
+}
+
+
+
+
+
+
