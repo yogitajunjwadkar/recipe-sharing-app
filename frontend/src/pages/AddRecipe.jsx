@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import "./addRecipe.css"
+import "./AddRecipe.css"
 const AddRecipe = () => {
   const navigate = useNavigate()
   const [message, setMessage] = useState("")
