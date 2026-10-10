@@ -12,7 +12,8 @@ const Recipes = () => {
   const [error, setError] = useState("")
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/recipes")
+    // fetch("http://localhost:5000/api/recipes")
+    fetch("https://recipe-sharing-app-6m8v.onrender.com/api/recipes")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch recipes")
