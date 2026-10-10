@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import "./AddRecipe.css"
+import "./addRecipe.css"
 const AddRecipe = () => {
   const navigate = useNavigate()
   const [message, setMessage] = useState("")
@@ -34,7 +34,7 @@ const AddRecipe = () => {
   }
 
   try {
-    const response = await fetch("https://recipe-sharing-app-6m8v.onrender.com/api/recipes", {
+    const response = await fetch("http://localhost:5000/api/recipes/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

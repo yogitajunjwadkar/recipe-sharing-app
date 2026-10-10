@@ -67,8 +67,7 @@ const EditRecipe = () => {
   }
 
   try {
-    // const response = await fetch(`http://localhost:5000/api/recipes/${id}`, {
-     const response = await fetch(`https://recipe-sharing-app-6m8v.onrender.com/api/recipes/${id}`, {
+    const response = await fetch(`http://localhost:5000/api/recipes/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json"
